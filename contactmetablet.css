@@ -1,0 +1,50 @@
+@charset "UTF-8";
+.roboto-banner {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+body {
+background-color: white;
+font-family: "Roboto", Geneva, Arial, sans-serif;
+padding:0px;
+margin:0px;
+height: 90%;
+background: #364A32;
+background-image: -moz-linear-gradient(top, #47A135 0%, #364A32 100%);
+background-image: -webkit-linear-gradient(top, #47A135 0%, #364A32 100%);
+background-image: -o-linear-gradient(top, #47A135 0%, #364A32 100%);
+background-image: linear-gradient(to bottom, #47A135 0%, #364A32 100%);
+}
+#banner h1 {
+    color:#364A32;
+    margin:auto;
+    text-align: center;
+    width: 90%;
+}
+a {
+    color: #2C332B;
+    -webkit-transition: color 0.2s;
+    -moz-transition: color 0.2s;
+    -o-transition: color 0.2s;
+    transition: color 0.2s;
+}
+a:link {
+    text-decoration: none;
+}
+a:hover {
+    color:white
+}
+html {
+    height: 100%;
+}
+#form {
+    text-align: center;
+    color:#364A32;
+}
+#footer p{
+    color: #61C451;
+    bottom: 0;
+    position: fixed;
+}
