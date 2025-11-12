@@ -1,23 +1,19 @@
 {
-  "name": "assignment2",
-  "version": "1.0.0",
-  "description": "",
-  "homepage": "https://github.com/alexjaruczik/Assignment2#readme",
-  "bugs": {
-    "url": "https://github.com/alexjaruczik/Assignment2/issues"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/alexjaruczik/Assignment2.git"
-  },
-  "license": "ISC",
-  "author": "",
-  "type": "commonjs",
-  "main": "index.js",
+  "name": "assignmentpage",
+  "version": "0.0.0",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node ./bin/www"
   },
   "dependencies": {
-    "express": "^5.1.0"
+    "@fortawesome/fontawesome-free": "^7.1.0",
+    "bootstrap": "^5.2.2",
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "ejs": "^3.1.10",
+    "express": "~4.16.1",
+    "http-errors": "~1.6.3",
+    "jade": "~1.11.0",
+    "morgan": "~1.9.1"
   }
 }
