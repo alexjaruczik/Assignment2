@@ -13,22 +13,15 @@ and (min-width:481px) and (max-width:960px)">
 <!-- phone style sheet-->
 <link href="/stylesheets/contactmephone.css" rel="stylesheet" type="text/css" media="only screen
 and (max-width:480px)">
+<link href="/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
+    <script src="/bootstrap/dist/js/bootstrap.min.js"></script>
     <div id="wrapper">
-        <div id="top-row">
-            <nav>
-                <h4>        
-                    <a href="index">Home</a> |
-                    <a href="aboutme">About Me</a> |
-                    <a href="projects">Projects</a> |
-                    <a href="contactme">Contact Me</a>
-                </h4>
-            </nav>
-        </div>
+        <%- include('partials/main_nav') %>
         <div id="banner">
             <header><h1>Contact Me!</h1></header>
         </div>
@@ -49,11 +42,7 @@ and (max-width:480px)">
             <input type="submit" value="Click to submit!">
             </form>
         </div>
-        <div id="footer">
-            <footer>
-                <p>© 2025 by <a href="mailto:alex.jaruczik@ontariotechu.ca">Alex Jaruczik</a></p>
-            </footer>
-        </div>
+        <%- include('partials/footer') %>
     </div>
 </body>
 </html>
